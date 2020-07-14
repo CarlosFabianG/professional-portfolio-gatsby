@@ -12,6 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import Footer from "./Footer"
 import NavBar from "./NavBar"
+import ContactMe from "./ContactMe"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -33,10 +34,11 @@ const Layout = ({ children }) => {
         style={{
           margin: `0 auto`,
           maxWidth: 960,
-          padding: `0 1.45rem`,
+          padding: `0 2rem`,
         }}
       >
         <main>{children}</main>
+        <ContactMe />
       </div>
       <Footer />
     </>
