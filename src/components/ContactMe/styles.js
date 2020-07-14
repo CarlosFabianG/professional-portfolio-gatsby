@@ -12,6 +12,7 @@ export const StyledContactMe = styled.div`
     h3 {
         font-size: 40px;
         text-align: center;
+        font-family: 'Ibarra Real Nova sans-serif';
     }
     .button {
         border: solid #33323D 1px;
