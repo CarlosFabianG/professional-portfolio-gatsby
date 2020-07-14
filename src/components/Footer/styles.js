@@ -1,0 +1,20 @@
+import styled from 'styled-components'
+
+export const StyledFooter = styled.footer`
+    background: rgb(51, 50, 61);
+    color: white;
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+    }
+        .links {
+            text-align: center;
+        }
+        .sm-icons {
+            a {
+                margin-right: .7rem;
+            }
+        }
+`

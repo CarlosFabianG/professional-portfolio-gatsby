@@ -1,20 +1,23 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { StyledNavBar } from './styles'
+
+import logo from './logo.svg'
 
 const NavBar = () => {
     return(
-        <>
-        <div>
-            <Link to={'/'}>
-                Carlos Fabian
-            </Link>
-            <div>
-                <Link to={'/'}>Inicio</Link>
-                <Link to={'/'}>Portafolio</Link>
-                <Link to={'/'}>Contacto</Link>
+        <StyledNavBar>
+            <div className="wrapper">
+                <Link to={'/'} className="logo">
+                    <img src={logo}/>
+                </Link>
+                <div class="navbar-menu">
+                    <Link to={'/'}>Inicio</Link>
+                    <Link to={'/'}>Portafolio</Link>
+                    <Link to={'/'}>Contacto</Link>
+                </div>
             </div>
-        </div>
-        </>
+        </StyledNavBar>
     )
 }
 
