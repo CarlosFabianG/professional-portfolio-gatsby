@@ -13,11 +13,12 @@ export const StyledContactMe = styled.div`
         font-size: 40px;
         text-align: center;
         font-family: 'Ibarra Real Nova sans-serif';
+        margin-bottom: 3rem;
     }
     .button {
         border: solid #33323D 1px;
         color: #33323D;
-        padding: 1rem 2rem;
+        padding: .82rem 2.4rem;
         text-decoration: none;
         text-transform: uppercase;
         font-size: 12px;

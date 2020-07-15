@@ -8,10 +8,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
-import Header from "./header"
 import Footer from "./Footer"
-import NavBar from "./NavBar"
+import Header from "./Header"
 import ContactMe from "./ContactMe"
 import "./layout.css"
 
@@ -28,7 +26,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-    <NavBar />
+    <Header />
       <div
         style={{
           margin: `0 auto`,

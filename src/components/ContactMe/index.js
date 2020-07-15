@@ -10,7 +10,7 @@ const ContactMe = () => {
             </div>
             <div></div>
             <div className="button-container">
-                <Link to={'/'} className="button">Contáctame</Link>
+                <Link to={'/contact'} className="button">Contáctame</Link>
             </div>
         </StyledContactMe>
     )

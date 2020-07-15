@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
-export const StyledNavBar = styled.header`
+export const StyledHeader = styled.header`
 
     .wrapper {
-        padding: .5rem 2rem;
+        padding: 2.1rem 2rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -11,6 +11,14 @@ export const StyledNavBar = styled.header`
             img {
                 margin:0;
             }
+        }
+        .burger-icon {
+            img {
+                margin: 0;
+            }
+        }
+        .navbar-menu {
+            display: none;
         }
     }
 `
