@@ -17,6 +17,8 @@ margin-bottom: 4.75rem;
         color: white;
         padding: .8rem 4.3rem;
         display: inline-block;
+        font-size: 12px;
+        text-transform: uppercase;
         cursor: pointer;
         &:hover {
             background: #5FB4A2;

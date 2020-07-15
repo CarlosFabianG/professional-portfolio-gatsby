@@ -11,9 +11,11 @@ export const StyledFooter = styled.footer`
         flex-direction: column;
         align-items: center;
         padding: 2rem;
+        padding-top: 3.25rem;
     }
         .links {
             text-align: center;
+            margin-bottom: 10px;
         }
         .sm-icons {
             a {
