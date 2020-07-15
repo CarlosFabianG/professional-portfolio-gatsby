@@ -17,7 +17,13 @@ export const StyledContactMe = styled.div`
     .button {
         border: solid #33323D 1px;
         color: #33323D;
-        padding: .5rem 2rem;
+        padding: 1rem 2rem;
         text-decoration: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        &:hover {
+            background: #33323D;
+            color: #FAFAFA;
+        }
     }
 `
