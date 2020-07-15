@@ -29,6 +29,7 @@ export const StyledForm = styled.section`
     display: flex;
     flex-direction: column;
     .title {
+        margin-top: 2rem;
         h3 {
             font-size: 40px;
         }
