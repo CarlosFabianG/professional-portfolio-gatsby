@@ -16,6 +16,14 @@ export const StyledFooter = styled.footer`
         .links {
             text-align: center;
             margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            a {
+                text-decoration: none;
+                color: white;
+                margin-bottom: 15px;
+            }
         }
         .sm-icons {
             a {

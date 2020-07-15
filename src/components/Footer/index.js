@@ -13,9 +13,9 @@ const Footer = () => {
             <div className="wrapper">
                 <div className="links">
                     <img src={logo} alt="brand-logo"/>
-                    <p>Inicio</p>
-                    <p>Portafolio</p>
-                    <p>Contacto</p>
+                    <Link to={'/'}>Inicio</Link>
+                    <Link to={'/projects'}>Portafolio</Link>
+                    <Link to={'/contact'}>Contacto</Link>
                 </div>
                 <div className="sm-icons">
                     <a href="https://github.com/CarlosFabianG">

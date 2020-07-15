@@ -5,11 +5,11 @@ export const StyledForm = styled.section`
     flex-direction: column;
     max-width: 635px;
     margin-bottom: 80px;
+    font-family: 'Public Sans', sans-serif;
     label {
         color: #33323D;
         font-weight: 700;
         margin-bottom: 10px;
-        font-family: Public Sans sans-serif;
     }
     .input-medium {
         height: 48px;

@@ -10,12 +10,14 @@ export const StyledContact = styled.section`
         margin-bottom: 24px;
         h3 {
             font-size: 40px;
+            font-family: Ibarra Real Nova sans-serif;
             margin-bottom: 0;
         }
     }
     .text {
         p {
             margin-bottom: 2rem;
+            font-family: 'Public Sans', sans-serif;
         }
         .icons {
             a {
@@ -32,6 +34,7 @@ export const StyledForm = styled.section`
         margin-top: 2rem;
         h3 {
             font-size: 40px;
+            font-family: Ibarra Real Nova sans-serif;
         }
     }
 `

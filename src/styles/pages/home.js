@@ -19,6 +19,7 @@ margin-bottom: 4.75rem;
         display: inline-block;
         font-size: 12px;
         text-transform: uppercase;
+        font-family: 'Public Sans', sans-serif;
         cursor: pointer;
         &:hover {
             background: #5FB4A2;
@@ -43,7 +44,7 @@ export const StyledProfile = styled.div`
         }
         .copy {
             margin-bottom: 2rem;
-            font-family: Public Sans sans-serif;
+            font-family: 'Public Sans', sans-serif;
             line-height: 1.875;
         }
     }
@@ -52,7 +53,7 @@ export const StyledProfile = styled.div`
         border: solid #33323D 1px;
         color: #33323D;
         text-transform: uppercase;
-        font-family: Public Sans sans-serif;
+        font-family: 'Public Sans', sans-serif;
         text-decoration: none;
         cursor: pointer;
         font-size: 12px;
