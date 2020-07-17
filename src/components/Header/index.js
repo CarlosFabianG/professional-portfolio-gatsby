@@ -15,7 +15,7 @@ const Header = () => {
                 <div className="burger-icon">
                     <img src={burger} alt="burger-icon"/>
                 </div>
-                <nav class="navbar-menu">
+                <nav className="navbar-menu">
                     <Link to={'/'}>Inicio</Link>
                     <Link to={'/projects'}>Portafolio</Link>
                     <Link to={'/contact'}>Contacto</Link>

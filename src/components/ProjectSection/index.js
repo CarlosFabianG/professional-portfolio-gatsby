@@ -12,7 +12,7 @@ const ProjectSection = ({imageName, title, description}) => {
                 <div className="text">
                     {description}
                 </div>
-                <Link className="button">Ver proyecto</Link>
+                <Link to={'/'} className="button">Ver proyecto</Link>
             </article>
         </StyledSection>
     )

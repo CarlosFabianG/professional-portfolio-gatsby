@@ -1,10 +1,12 @@
 import React from 'react'
 import ContactMe from '../components/ContactMe'
 import ProjectSection from '../components/ProjectSection'
+import SEO from '../components/seo'
 
 const Projects = () => {
     return(
         <>
+        <SEO title="portafolio"/>
         <ProjectSection imageName="mobile-portfolio-manage.jpg"
                         title="Manage"
                         description="Landing page construída siguiendo metodología BEM. 

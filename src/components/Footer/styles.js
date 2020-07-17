@@ -35,7 +35,7 @@ export const StyledFooter = styled.footer`
             .wrapper {
                 flex-direction: row;
                 justify-content: space-between;
-                padding: 1.1rem 2rem;
+                padding: 1.1rem 2.4rem;
             }
             .links {
                 flex-direction: row;

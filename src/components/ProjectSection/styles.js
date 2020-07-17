@@ -30,6 +30,7 @@ export const StyledSection = styled.section`
             border: solid #33323D 1px;
             color: #33323D;
             text-transform: uppercase;
+            text-decoration: none;
             &:hover {
                 background: #33323D;
                 color: white;

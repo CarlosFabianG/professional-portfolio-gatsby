@@ -23,7 +23,7 @@ export const StyledHeader = styled.header`
     }
     @media screen and (min-width: 768px) {
         .wrapper {
-
+            padding: 2rem 2.4rem;
             .burger-icon {
                 display: none;
             }
