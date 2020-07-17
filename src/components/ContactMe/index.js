@@ -8,7 +8,7 @@ const ContactMe = () => {
             <div className="title-container">
                 <h3>¿Tienes un proyecto en mente?</h3>
             </div>
-            <div></div>
+            <div className="border-container"></div>
             <div className="button-container">
                 <Link to={'/contact'} className="button">Contáctame</Link>
             </div>

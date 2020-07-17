@@ -30,12 +30,21 @@ export const StyledContactMe = styled.div`
     }
     @media screen and (min-width: 768px){
         flex-direction: row;
+        margin-top: 8vh; 
+        margin-bottom: 7vh;
         .title-container {
             width: 350px;
             h3 {
             margin: 0;
             text-align: start;
         }   
+        }
+        .border-container {
+            width: 113px;
+            height: 1px;
+            background: #33323D;
+            margin: 0 4vw;
+            opacity: 15%;
         }
     }
 `
