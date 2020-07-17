@@ -10,7 +10,7 @@ const Header = () => {
         <StyledHeader>
             <div className="wrapper">
                 <Link to={'/'} className="logo">
-                    <img src={logo}/>
+                    <img src={logo} alt="brand-logo"/>
                 </Link>
                 <div className="burger-icon">
                     <img src={burger} alt="burger-icon"/>

@@ -30,4 +30,30 @@ export const StyledFooter = styled.footer`
                 margin-right: .7rem;
             }
         }
+
+        @media screen and (min-width: 768px) {
+            .wrapper {
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 1.1rem 2rem;
+            }
+            .links {
+                flex-direction: row;
+                margin-bottom: 0;
+                a {
+                    margin-right: 30px;
+                    margin-bottom: 0;
+                    img {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            .sm-icons {
+                a {
+                    img {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
 `

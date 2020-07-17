@@ -18,6 +18,7 @@ export const StyledContact = styled.section`
         p {
             margin-bottom: 2rem;
             font-family: 'Public Sans', sans-serif;
+            line-height: 2;
         }
         .icons {
             a {

@@ -28,4 +28,14 @@ export const StyledContactMe = styled.div`
             color: #FAFAFA;
         }
     }
+    @media screen and (min-width: 768px){
+        flex-direction: row;
+        .title-container {
+            width: 350px;
+            h3 {
+            margin: 0;
+            text-align: start;
+        }   
+        }
+    }
 `

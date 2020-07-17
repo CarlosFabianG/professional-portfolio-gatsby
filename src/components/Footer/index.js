@@ -12,7 +12,7 @@ const Footer = () => {
         <StyledFooter>
             <div className="wrapper">
                 <div className="links">
-                    <img src={logo} alt="brand-logo"/>
+                    <Link to={'/'}><img src={logo} alt="brand-logo"/></Link>
                     <Link to={'/'}>Inicio</Link>
                     <Link to={'/projects'}>Portafolio</Link>
                     <Link to={'/contact'}>Contacto</Link>

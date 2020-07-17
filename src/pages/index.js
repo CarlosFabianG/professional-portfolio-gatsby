@@ -11,13 +11,13 @@ const IndexPage = () => (
     <SEO title="Home" />
     <StyledHero>
       <div className="img-container">
-        <Image name="image-homepage-hero.jpg"/>
+        <Image name="image-homepage-hero@2x.jpg"/>
       </div>
       <div className="text-container">
         <h1>Hola, soy Carlos Fabián, desarrollador <br/><span>WEB</span></h1>
         <Link className="button">Sobre mí</Link>
       </div>
-    </StyledHero >
+    </StyledHero>
      
     <StyledProfile>
       <div className="img-container">
