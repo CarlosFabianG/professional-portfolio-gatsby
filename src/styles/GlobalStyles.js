@@ -5,3 +5,8 @@ export const colors = {
     white: 'white'
 }
 
+export const GlobalStyles = createGlobalStyle`
+.__gatsby {
+    background: #FAFAFA;
+}
+`
