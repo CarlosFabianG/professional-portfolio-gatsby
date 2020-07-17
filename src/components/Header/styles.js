@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const StyledHeader = styled.header`
-
+    font-family: 'Public Sans', sans-serif;
     .wrapper {
         padding: 2.1rem 2rem;
         display: flex;
@@ -19,6 +19,26 @@ export const StyledHeader = styled.header`
         }
         .navbar-menu {
             display: none;
+        }
+    }
+    @media screen and (min-width: 768px) {
+        .wrapper {
+
+            .burger-icon {
+                display: none;
+            }
+            .navbar-menu {
+                display: flex;
+                a {
+                    text-decoration: none;
+                    margin-left: 40px;
+                    font-size: 12px;
+                    color: #33323D;
+                    &:hover {
+                        color: #5FB4A2;
+                    }
+                }
+            }
         }
     }
 `

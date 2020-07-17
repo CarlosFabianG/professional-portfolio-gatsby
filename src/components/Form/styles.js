@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const StyledForm = styled.section`
     display: flex;
     flex-direction: column;
-    max-width: 635px;
+    max-width: 700px;
     margin-bottom: 80px;
     font-family: 'Public Sans', sans-serif;
     label {
@@ -33,5 +33,13 @@ export const StyledForm = styled.section`
         letter-spacing: 2px;
         text-transform: uppercase;
         cursor: pointer;
+    }
+    @media screen and (min-width: 768px){
+        button {
+            width: 200px;
+            &:hover {
+                background: #5FB4A2;
+            }
+        }
     }
 `

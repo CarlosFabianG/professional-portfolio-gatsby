@@ -17,8 +17,8 @@ const Header = () => {
                 </div>
                 <nav class="navbar-menu">
                     <Link to={'/'}>Inicio</Link>
-                    <Link to={'/'}>Portafolio</Link>
-                    <Link to={'/'}>Contacto</Link>
+                    <Link to={'/projects'}>Portafolio</Link>
+                    <Link to={'/contact'}>Contacto</Link>
                 </nav>
             </div>
         </StyledHeader>
