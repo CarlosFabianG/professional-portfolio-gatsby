@@ -11,6 +11,7 @@ const Projects = () => {
                         title="Manage"
                         description="Landing page construída siguiendo metodología BEM. 
                         Se usa HTML5 semántico y SASS como pre procesador de CSS. Full responsive."
+                        position="odd"
                         />
 
         <ProjectSection imageName="mobile-portfolio-fylo.jpg"
@@ -21,6 +22,7 @@ const Projects = () => {
         <ProjectSection imageName="image-geek-blog.png"
                         title="Geek Blog"
                         description="Blog estilo geek construido siguiendo metodología BEM. Se usa HTML5 semántico, CSS Grid, FlexBox y técnicas de responsive design para adaptar el diseño a diferentes dispositivos."
+                        position="odd"
                         />
 
         <ProjectSection imageName="image-landing-mars.png"
@@ -31,6 +33,7 @@ const Projects = () => {
         <ProjectSection imageName="image-best-exchange.png"
                         title="Best Exchange"
                         description="SPA que muestra en tiempo real el valor en el mercado de diferentes criptomonedas. Esta construida con Vue JS, usa tailwind como libreria CSS y consume la API coincape." 
+                        position="odd"
                         />
         <ProjectSection imageName="image-best-movie.png"
                         title="Best Movie"

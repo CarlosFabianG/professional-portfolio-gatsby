@@ -4,6 +4,7 @@ export const StyledSection = styled.section`
     display: flex;
     flex-direction: column;
     margin-bottom: 72px;
+
     img {
         margin-bottom: 2rem;
     }
@@ -36,5 +37,19 @@ export const StyledSection = styled.section`
                 color: white;
             }
         }
+    }
+
+    @media screen and (min-width: 768px){
+
+        flex-direction: ${ props => props.position ? "row" : "row-reverse"};
+        .gatsby-image-wrapper {
+        width: 339px;
+        margin-right: ${ props => props.position ? "9vw" : "0"};
+        margin-left: ${ props => props.position ? "0" : "9vw"}
+    }
+       article {
+        width: 289px;
+        margin-top: 0;
+       }
     }
 `
