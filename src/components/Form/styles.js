@@ -42,4 +42,7 @@ export const StyledForm = styled.section`
             }
         }
     }
+    @media screen and (min-width: 1024px){
+        width: 100%;
+    }
 `

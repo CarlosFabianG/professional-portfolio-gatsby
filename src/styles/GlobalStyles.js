@@ -6,7 +6,7 @@ export const colors = {
 }
 
 export const GlobalStyles = createGlobalStyle`
-.__gatsby {
+body {
     background: #FAFAFA;
 }
 `
