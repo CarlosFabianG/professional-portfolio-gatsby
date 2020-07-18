@@ -56,4 +56,9 @@ export const StyledFooter = styled.footer`
                 }
             }
         }
+        @media screen and (min-width: 1024px){
+            .wrapper {
+                padding: 1.2rem 12vw;
+            }
+        }
 `

@@ -47,4 +47,13 @@ export const StyledContactMe = styled.div`
             opacity: 15%;
         }
     }
+    @media screen and (min-width: 1024px){
+
+        .title-container {
+            width: fit-content;
+        }
+        .border-container {
+            width: 534px;
+        }
+    }
 `

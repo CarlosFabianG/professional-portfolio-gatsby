@@ -31,6 +31,7 @@ export const StyledHeader = styled.header`
                 display: flex;
                 a {
                     text-decoration: none;
+                    text-transform: uppercase;
                     margin-left: 40px;
                     font-size: 12px;
                     color: #33323D;
@@ -39,6 +40,12 @@ export const StyledHeader = styled.header`
                     }
                 }
             }
+        }
+    }
+
+    @media screen and (min-width: 1024px){
+        .wrapper {
+            padding: 2rem 12vw;
         }
     }
 `

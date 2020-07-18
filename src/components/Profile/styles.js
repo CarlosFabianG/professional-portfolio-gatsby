@@ -49,4 +49,17 @@ export const StyledProfile = styled.div`
             }
         }
     }
+
+    @media screen and (min-width: 1024px){
+        .profile-text {
+            max-width: 350px;
+        }
+        .img-container {
+            width: 450px;
+            margin-right: 12vw;
+            .gatsby-image-wrapper {
+                width: 500px;
+            }
+        }
+    }
 `
