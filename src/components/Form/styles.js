@@ -16,12 +16,14 @@ export const StyledForm = styled.section`
         background: rgb(234, 234, 235);
         border: 0;
         margin-bottom: 25px;
+        font-size: 10px;
     }
     .input-large {
         height: 96px;
         background: rgb(234, 234, 235);
         border: 0;
         margin-bottom: 20px;
+        font-size: 10px;
     }
     button {
         width: 64%;
