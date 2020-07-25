@@ -1,13 +1,18 @@
 import React from 'react'
+import useReactSimpleMatchMedia from 'react-simple-matchmedia'
 import { Link } from 'gatsby'
 import Image from '../image'
 import { StyledHero } from './styles'
 
 const Hero = () => {
+
+    const matched = useReactSimpleMatchMedia('(min-width: 1024)')
+
+
     return(
         <StyledHero>
             <div className="img-container">
-                <Image name="image-homepage-hero@2x.jpg"/>
+                { matched ? <Image name="image-homepage-hero.jpg" /> : <Image name="image-homepage-hero-mobile.jpg" />}
             </div>
             <div className="text-container">
                 <h1>Hola, soy Carlos Fabián, desarrollador <br/><span>WEB</span></h1>
