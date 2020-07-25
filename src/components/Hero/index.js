@@ -6,13 +6,15 @@ import { StyledHero } from './styles'
 
 const Hero = () => {
 
-    const matched = useReactSimpleMatchMedia('(min-width: 1024)')
+    const matched = useReactSimpleMatchMedia('desktop')
+    const mobile = useReactSimpleMatchMedia('phone')
 
 
     return(
         <StyledHero>
             <div className="img-container">
-                { matched ? <Image name="image-homepage-hero.jpg" /> : <Image name="image-homepage-hero-mobile.jpg" />}
+                { matched && <Image name="image-homepage-hero.jpg" /> }
+                { mobile && <Image name="image-homepage-hero-mobile.jpg" />}
             </div>
             <div className="text-container">
                 <h1>Hola, soy Carlos Fabián, desarrollador <br/><span>WEB</span></h1>
