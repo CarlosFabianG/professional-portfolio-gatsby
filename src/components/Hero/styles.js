@@ -31,8 +31,19 @@ margin-bottom: 4.75rem;
 @media screen and (min-width: 1024px){
     .text-container {
         position: relative;
-        bottom: 195px;
+        bottom: 380px;
         z-index: 3;
+        width: 40%;
+        height: 357px;
+
+        h1 {
+            font-size: 50px;
+        }
+
+        .button {
+            position: relative;
+            top: 55px;
+        }
     }
 }
 `
