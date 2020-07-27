@@ -29,6 +29,7 @@ margin-bottom: 4.75rem;
 }
 
 @media screen and (min-width: 1024px){
+    height: 650px;
     .text-container {
         position: relative;
         bottom: 380px;
