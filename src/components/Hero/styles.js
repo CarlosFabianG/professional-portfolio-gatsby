@@ -27,4 +27,12 @@ margin-bottom: 4.75rem;
         }
 }
 }
+
+@media screen and (min-width: 1024px){
+    .text-container {
+        position: relative;
+        bottom: 195px;
+        z-index: 3;
+    }
+}
 `
