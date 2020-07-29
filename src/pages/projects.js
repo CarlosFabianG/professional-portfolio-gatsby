@@ -1,20 +1,23 @@
 import React from 'react'
+import useReactSimpleMatchMedia from 'react-simple-matchmedia'
 import ContactMe from '../components/ContactMe'
 import ProjectSection from '../components/ProjectSection'
 import SEO from '../components/seo'
 
 const Projects = () => {
+    const mobile = useReactSimpleMatchMedia('(min-width: 350) and (max-width: 600px)')
+    const desktop = useReactSimpleMatchMedia('(min-width: 750) and (max-width: 1024px)')
     return(
         <>
         <SEO title="portafolio"/>
-        <ProjectSection imageName="mobile-portfolio-manage.jpg"
+        <ProjectSection imageName={ mobile ? "mobile-portfolio-manage.jpg": "desktop-portfolio-manage.jpg"}
                         title="Manage"
                         description="Landing page construída siguiendo metodología BEM. 
                         Se usa HTML5 semántico y SASS como pre procesador de CSS. Full responsive."
                         position="odd"
                         />
 
-        <ProjectSection imageName="mobile-portfolio-fylo.jpg"
+        <ProjectSection imageName={ mobile ? "mobile-portfolio-fylo.jpg": "desktop-portfolio-fylo.jpg"}
                         title="Fylo"
                         description="Landing page construída siguiendo metodología BEM. HTML5 y SASS como preprocesador de CSS. Full responsive."
                         />
