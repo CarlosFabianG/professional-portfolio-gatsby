@@ -52,4 +52,9 @@ export const StyledSection = styled.section`
         margin-top: 0;
        }
     }
+    @media screen and (min-width: 1024px){
+        .gatsby-image-wrapper {
+            width: 540px;
+        }
+    }
 `
