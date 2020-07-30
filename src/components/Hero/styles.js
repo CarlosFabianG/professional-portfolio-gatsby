@@ -28,6 +28,17 @@ margin-bottom: 4.75rem;
 }
 }
 
+@media screen and (min-width: 768px){
+    height: 620px;
+    .text-container {
+        position: relative;
+        bottom: 305px;
+        z-index: 3;
+        width: 514px;
+        height: 278px;
+    }
+}
+
 @media screen and (min-width: 1024px){
     height: 650px;
     .text-container {
