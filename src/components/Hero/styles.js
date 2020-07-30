@@ -25,6 +25,9 @@ margin-bottom: 4.75rem;
         &:hover {
             background: #5FB4A2;
         }
+        img {
+                margin-bottom: 0;
+            }
 }
 }
 

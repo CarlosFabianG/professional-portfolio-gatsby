@@ -3,6 +3,7 @@ import useReactSimpleMatchMedia from 'react-simple-matchmedia'
 import { Link } from 'gatsby'
 import Image from '../image'
 import { StyledHero } from './styles'
+import arrowsDown from './down-arrows.svg'
 
 const Hero = () => {
 
@@ -20,7 +21,7 @@ const Hero = () => {
             </div>
             <div className="text-container">
                 <h1>Hola, soy Carlos Fabián, desarrollador <br/><span>WEB</span></h1>
-                <Link to={'/'} className="button">Sobre mí</Link>
+                <Link to={'/'} className="button"><img src={arrowsDown} alt="arrow"/>Sobre mí</Link>
             </div>
         </StyledHero>
     )

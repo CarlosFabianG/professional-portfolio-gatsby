@@ -1,11 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'gatsby'
 import { StyledHeader } from './styles'
 
 import logo from './logo.svg'
 import burger from './hamburger.svg'
+import close from './close.svg'
 
 const Header = () => {
+
+    const [ status, setStatus ] = useState(false)
+
+    const changeStatus = () => !status ? setStatus(true) : setStatus(false)
+
     return(
         <StyledHeader>
             <div className="wrapper">
@@ -13,7 +19,7 @@ const Header = () => {
                     <img src={logo} alt="brand-logo"/>
                 </Link>
                 <div className="burger-icon">
-                    <img src={burger} alt="burger-icon"/>
+                    { !status ? <img onClick={changeStatus} src={burger} alt="burger-icon"/>: <img onClick={changeStatus} src={close} alt="close-icon"/>}
                 </div>
                 <nav className="navbar-menu">
                     <Link to={'/'}>Inicio</Link>
