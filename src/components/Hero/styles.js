@@ -36,6 +36,10 @@ margin-bottom: 4.75rem;
         z-index: 3;
         width: 514px;
         height: 278px;
+        h1 {
+            padding-top: 55px;
+            margin-bottom: 35px;
+        }
     }
 }
 
@@ -49,6 +53,7 @@ margin-bottom: 4.75rem;
         height: 357px;
 
         h1 {
+            padding-top: 55px;
             font-size: 50px;
         }
 
