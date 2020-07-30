@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'gatsby'
+import useReactSimpleMatchMedia from 'react-simple-matchmedia'
 import { StyledHeader } from './styles'
 
 import logo from './logo.svg'
@@ -9,8 +10,9 @@ import close from './close.svg'
 const Header = () => {
 
     const [ status, setStatus ] = useState(false)
-
     const changeStatus = () => !status ? setStatus(true) : setStatus(false)
+
+    const mobile = useReactSimpleMatchMedia('phone')
 
     return(
         <StyledHeader>
@@ -21,10 +23,10 @@ const Header = () => {
                 <div className="burger-icon">
                     { !status ? <img onClick={changeStatus} src={burger} alt="burger-icon"/>: <img onClick={changeStatus} src={close} alt="close-icon"/>}
                 </div>
-                <nav className="navbar-menu">
-                    <Link to={'/'}>Inicio</Link>
-                    <Link to={'/projects'}>Portafolio</Link>
-                    <Link to={'/contact'}>Contacto</Link>
+                <nav className={ !mobile ? "navbar-menu" : mobile && status ? "navbar-menu--mobile-active": "navbar-menu--mobile"}>
+                    <Link to={'/'} onClick={changeStatus}>Inicio</Link>
+                    <Link to={'/projects'} onClick={changeStatus}>Portafolio</Link>
+                    <Link to={'/contact'} onClick={changeStatus}>Contacto</Link>
                 </nav>
             </div>
         </StyledHeader>
