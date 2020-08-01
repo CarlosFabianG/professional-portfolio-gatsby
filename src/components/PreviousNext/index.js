@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { StyledPreviousNext } from './styles'
 import arrowLeft from './arrow-left.svg'
 import arrowRight from './arrow-right.svg'
 
 const PreviousNext = (props) => {
     return(
-        <>
+        <StyledPreviousNext>
         <div className="left-button">
             <Link to={'/'}><img src={arrowLeft} alt="left-arrow"/></Link>
                 <div>
@@ -21,7 +22,7 @@ const PreviousNext = (props) => {
                 </div>
             <Link to={'/'}><img src={arrowRight} alt="right-arrow"/></Link>
         </div>
-        </>
+        </StyledPreviousNext>
     )
 }
 
