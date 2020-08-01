@@ -2,14 +2,79 @@
     {
         "title": "Manage",
         "slug": "project-manage",
-        "sideDescription": "",
-        "description": "Manage es una landing page que hice usando HTML5, SASS y unas gotas de JavaScript. Durante el desarrollo se siguió la metodología BEM para nombrar selectores de CSS. Gracias a la ayuda del preprocesador de css SASS el código está modularizado por componente lo que facilita el mantenimiento y la escalabilidad. El diseño es responsive y se siguió el enfoque mobile first.",
-        "sideInfo": "Este proyecto requirió un buen conocimiento de maquetación en HTML5, CSS, SASS y técnicas de responsive design.",
+        "sideDescription": "Este proyecto requirió un buen conocimiento de maquetación en HTML5, CSS, SASS y técnicas de responsive design.",
+        "description": "Manage es una landing page que hice usando HTML5, SASS y unas gotas de JavaScript. Durante el desarrollo se siguió la metodología BEM para nombrar selectores de CSS. Gracias a la ayuda del preprocesador de css SASS el código está modularizado por componente lo que facilita el mantenimiento y la escalabilidad. El diseño es responsive y se siguió el enfoque mobile first",
         "prev": "none",
         "next": "fylo",
         "prevTitle": "none",
         "nextTitle": "Fylo",
         "technologies": ["html", "css", "js"],
-        "clasification": ["landing page", "frontend development"]
+        "clasification": ["Landing Page", "Frontend Development"],
+        "website": "https://manage-landing-page-cf.netlify.app"
+    },
+    {
+        "title": "Fylo",
+        "slug": "project-fylo",
+        "sideDescription": "Este proyecto requirió un buen conocimiento de maquetación en HTML5, CSS, SASS y técnicas de responsive design.",
+        "description": "Fylo es una landing page que hice usando HTML5 y SASS. Durante el desarrollo se siguió la metodología BEM para nombrar selectores de CSS. Gracias a la ayuda del preprocesador de css SASS el código está modularizado por componente lo que facilita el mantenimiento y la escalabilidad. Se usaron medidas relativas y media queries para hacer el diseño responsivo para smartphones y laptop.",
+        "prev": "manage",
+        "next": "Geek Blog",
+        "prevTitle": "Manage",
+        "nextTitle": "Geek Blog",
+        "technologies": ["html", "css", "js"],
+        "clasification": ["Landing Page", "Frontend Development"],
+        "website": "https://fylo-landingpage-cf.netlify.app"
+    },
+    {
+        "title": "Blog Geek",
+        "slug": "blog-geek",
+        "sideDescription": "Este blog requirió HTML semántico, CSS moderno con técnicas como FlexBox, Grid layout y siguiendo la metodología BEM para el nombramiento de clases-selectores y estructura general del contenido. La página es responsiva.",
+        "description": "Este proyecto es un blog con estilo geek. Cuenta con distintas páginas y secciones. El objetivo principal de este proyecto fue fortalecer mis habilidades en maquetación y construcción de sitios estáticos. Y, en específico poner en práctica mis conocimientos de CSS Grid Layout y de la metodología BEM. El diseño es responsivo haciendo uso de medidas relativas, FlexBox y media queries.",
+        "prev": "fylo",
+        "next": "landing in mars",
+        "prevTitle": "Fylo",
+        "nextTitle": "Landing in Mars",
+        "technologies": ["html", "css", "js"],
+        "clasification": ["multipage website", "Frontend Development"],
+        "website": "https://geek-blog.netlify.app"
+    },
+    {
+        "title": "Landing in Mars",
+        "slug": "landing-in-mars",
+        "sideDescription": "Este proyecto requirió un buen conocimiento de JavaScript puro - ECMAScript 6+ - y programación Orientada a Objetos para manipular el canvas, aplicar la lógica del juego y lograr la interactividad con el usuario.",
+        "description": "Este fue mi primer proyecto completo dentro del bootcamp de IronHack. El objetivo fue poner en práctica mi conocimiento de JavaScript, sin ayuda de librerias, frameworks u otros elementos externos. El juego recrea un entrenamiento en Marte en el que el objetivo es disparar a drones que se acercan a ti. Es un juego simple con solo una instruccion: destruye los drones que puedas. Para hacerlo dispones de cuatro  movimientos que llevas a cabo con teclas del teclado. Tiene la opción de contar los puntos de un segundo jugador y por medio de una comparación declarar a un ganador. ",
+        "prev": "geek-blog",
+        "next": "landing-in-mars",
+        "prevTitle": "Geek Blog",
+        "nextTitle": "Best Exchange",
+        "technologies": ["html", "css", "js"],
+        "clasification": ["Video Game", "Frontend Development"],
+        "website": "https://carlosfabiang.github.io/learning-in-mars/"
+    },
+    {
+        "title": "Best Exchange",
+        "slug": "best-exchange",
+        "sideDescription": "El presente proyecto es una SPA construída con la ayuda del framework progresivo Vue. En la parte de IU me apoyé en Tawilwind css, y API Rest para el consumo de datos.",
+        "description": "Hice este proyecto con el objetivo de probar el framework Vue y conocer sus ventajas frente a otras opciones de desarrollo. La aplicación muestra los precios en tiempo real de las principales criptomonedas en el mercado. Me ayudé de la API coincap para el consumo de datos. Para gráficar el comportamiento de los precios en el tiempo usé la librería Chart.js. Me enfoque mucho en lograr una buena UI con la ayuda de loaders y botones interactivos. De igual manera probé un framework de CSS que esta en tendencia llamado Tailwind. La aplicación es full responsive.",
+        "prev": "landing-in-mars",
+        "next": "best-movie",
+        "prevTitle": "Landing in Mars",
+        "nextTitle": "Best Movie",
+        "technologies": ["Vue", "Tailwind", "API REST"],
+        "clasification": ["Single Page App", "Frontend Development"],
+        "website": "https://best-exchange.netlify.app/"
+    },
+    {
+        "title": "Best Movie",
+        "slug": "best-movie",
+        "sideDescription": "Este proyecto es una Single Page Application construida con React y consume la The Movie Data Base API para obtener los datos de miles de películas. Para los estilos se usa Chakra UI.",
+        "description": "Best Movie app fue una de las primeras aplicaciones que contruí con React. Soy un apasionado del cine y quería hacer un proyecto relacionado a esta industria. La aplicación muestra películas por género, detalles como presupuesto, año de lanzamiento, rating, sinopsis, trailer y películas relacionadas que también te pueden interesar. Diseñar y construir esta aplicación me ayudó a lograr un entendimiento más profundo de React y sus Life Cycle Methods, React Router Dom, y, el consumo de datos de una API de terceros con REST.",
+        "prev": "best-exchange",
+        "next": "manage",
+        "prevTitle": "Best Exchange",
+        "nextTitle": "Manage",
+        "technologies": ["React", "Chakra UI", "API REST"],
+        "clasification": ["Single Page App", "Frontend Development"],
+        "website": "https://best-movie.netlify.app/"
     }
 ]
