@@ -3,11 +3,11 @@ import { Link } from 'gatsby'
 import Image from '../image'
 import { StyledDetail } from './styles'
 
-const ProjectDetail = ({title, sideDescription, clasification, 
+const ProjectDetail = ({image, title, sideDescription, clasification, 
                         technologies, description, website}) => {
     return(
         <>
-        <Image name=""/>
+        <Image name={image}/>
         <StyledDetail>
         <aside>
             <h2>{title}</h2>
