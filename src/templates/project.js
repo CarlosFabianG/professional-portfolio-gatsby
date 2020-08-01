@@ -6,7 +6,7 @@ import ContactMe from '../components/ContactMe'
 
 export const query = graphql`
     query($slug: String!) {
-        projectsJson(slug: { eq: $slug }) {
+            projectsJson(slug: { eq: $slug }) {
             title
             sideDescription
             description
@@ -29,15 +29,16 @@ const Project = ({ data }) => {
         <ProjectDetail  title={project.title}
                         sideDescription={project.sideDescription}
                         description={project.description}
-                        prev={project.prev}
-                        next={project.next}
-                        prevTitle={project.prevTitle}
-                        nextTitle={project.nextTitle}
                         technologies={project.technologies}
                         clasification={project.clasification}
                         website={project.website} />
-        <PreviousNext />
-        <ContactMe />
+
+        <PreviousNext  next={project.next} 
+                       nextTitle={project.nextTitle}
+                       prev={project.prev}
+                       prevTitle={project.prevTitle} />
+
+        <ContactMe    />
         </>
     )
 }

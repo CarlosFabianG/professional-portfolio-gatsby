@@ -8,19 +8,19 @@ const PreviousNext = (props) => {
     return(
         <StyledPreviousNext>
         <div className="left-button">
-            <Link to={'/'}><img src={arrowLeft} alt="left-arrow"/></Link>
+            <Link to={props.prev}><img src={arrowLeft} alt="left-arrow"/></Link>
                 <div>
-                    <p>{props.previous}</p>
+                    <p>{props.prevTitle}</p>
                     <span>Previous Project</span>
                 </div>
             </div>
 
             <div className="right-button">
                 <div>
-                    <p>{props.next}</p>
+                    <p>{props.nextTitle}</p>
                     <span>Next Project</span>
                 </div>
-            <Link to={'/'}><img src={arrowRight} alt="right-arrow"/></Link>
+            <Link to={props.next}><img src={arrowRight} alt="right-arrow"/></Link>
         </div>
         </StyledPreviousNext>
     )
