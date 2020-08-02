@@ -54,4 +54,17 @@ export const StyledPreviousNext = styled.section`
             text-align: end;
         }
     }
+
+    @media screen and (min-width: 768px){
+        .left-button {
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        .right-button {
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+        }
+    }
 `
