@@ -4,12 +4,12 @@
         "slug": "manage",
         "sideDescription": "Este proyecto requirió un buen conocimiento de maquetación en HTML5, CSS, SASS y técnicas de responsive design.",
         "description": "Manage es una landing page que hice usando HTML5, SASS y unas gotas de JavaScript. Durante el desarrollo se siguió la metodología BEM para nombrar selectores de CSS. Gracias a la ayuda del preprocesador de css SASS el código está modularizado por componente lo que facilita el mantenimiento y la escalabilidad. El diseño es responsive y se siguió el enfoque mobile first",
-        "prev": "none",
+        "prev": "best-movie",
         "next": "fylo",
-        "prevTitle": "none",
+        "prevTitle": "Best Movie",
         "nextTitle": "Fylo",
-        "technologies": ["html", "css", "js"],
-        "clasification": ["Landing Page", "Frontend Development"],
+        "technologies": ["html /", " css /", " js"],
+        "clasification": ["Landing Page /", " Frontend Development"],
         "website": "https://manage-landing-page-cf.netlify.app"
     },
     {
@@ -18,11 +18,11 @@
         "sideDescription": "Este proyecto requirió un buen conocimiento de maquetación en HTML5, CSS, SASS y técnicas de responsive design.",
         "description": "Fylo es una landing page que hice usando HTML5 y SASS. Durante el desarrollo se siguió la metodología BEM para nombrar selectores de CSS. Gracias a la ayuda del preprocesador de css SASS el código está modularizado por componente lo que facilita el mantenimiento y la escalabilidad. Se usaron medidas relativas y media queries para hacer el diseño responsivo para smartphones y laptop.",
         "prev": "manage",
-        "next": "Geek Blog",
+        "next": "blog-geek",
         "prevTitle": "Manage",
         "nextTitle": "Geek Blog",
-        "technologies": ["html", "css", "js"],
-        "clasification": ["Landing Page", "Frontend Development"],
+        "technologies": ["html /", " css /", " js"],
+        "clasification": ["Landing Page /", " Frontend Development"],
         "website": "https://fylo-landingpage-cf.netlify.app"
     },
     {
@@ -31,11 +31,11 @@
         "sideDescription": "Este blog requirió HTML semántico, CSS moderno con técnicas como FlexBox, Grid layout y siguiendo la metodología BEM para el nombramiento de clases-selectores y estructura general del contenido. La página es responsiva.",
         "description": "Este proyecto es un blog con estilo geek. Cuenta con distintas páginas y secciones. El objetivo principal de este proyecto fue fortalecer mis habilidades en maquetación y construcción de sitios estáticos. Y, en específico poner en práctica mis conocimientos de CSS Grid Layout y de la metodología BEM. El diseño es responsivo haciendo uso de medidas relativas, FlexBox y media queries.",
         "prev": "fylo",
-        "next": "landing in mars",
+        "next": "landing-in-mars",
         "prevTitle": "Fylo",
         "nextTitle": "Landing in Mars",
-        "technologies": ["html", "css", "js"],
-        "clasification": ["multipage website", "Frontend Development"],
+        "technologies": ["html /", " css /", " js"],
+        "clasification": ["Multipage website /", " Frontend Development"],
         "website": "https://geek-blog.netlify.app"
     },
     {
@@ -43,12 +43,12 @@
         "slug": "landing-in-mars",
         "sideDescription": "Este proyecto requirió un buen conocimiento de JavaScript puro - ECMAScript 6+ - y programación Orientada a Objetos para manipular el canvas, aplicar la lógica del juego y lograr la interactividad con el usuario.",
         "description": "Este fue mi primer proyecto completo dentro del bootcamp de IronHack. El objetivo fue poner en práctica mi conocimiento de JavaScript, sin ayuda de librerias, frameworks u otros elementos externos. El juego recrea un entrenamiento en Marte en el que el objetivo es disparar a drones que se acercan a ti. Es un juego simple con solo una instruccion: destruye los drones que puedas. Para hacerlo dispones de cuatro  movimientos que llevas a cabo con teclas del teclado. Tiene la opción de contar los puntos de un segundo jugador y por medio de una comparación declarar a un ganador. ",
-        "prev": "geek-blog",
-        "next": "landing-in-mars",
+        "prev": "blog-geek",
+        "next": "best-exchange",
         "prevTitle": "Geek Blog",
         "nextTitle": "Best Exchange",
-        "technologies": ["html", "css", "js"],
-        "clasification": ["Video Game", "Frontend Development"],
+        "technologies": ["html /", " css", " js"],
+        "clasification": ["Video Game /", " Frontend Development"],
         "website": "https://carlosfabiang.github.io/learning-in-mars/"
     },
     {
@@ -60,8 +60,8 @@
         "next": "best-movie",
         "prevTitle": "Landing in Mars",
         "nextTitle": "Best Movie",
-        "technologies": ["Vue", "Tailwind", "API REST"],
-        "clasification": ["Single Page App", "Frontend Development"],
+        "technologies": ["Vue /", " Tailwind /", " API REST"],
+        "clasification": ["Single Page App /", " Frontend Development"],
         "website": "https://best-exchange.netlify.app/"
     },
     {
@@ -73,8 +73,8 @@
         "next": "manage",
         "prevTitle": "Best Exchange",
         "nextTitle": "Manage",
-        "technologies": ["React", "Chakra UI", "API REST"],
-        "clasification": ["Single Page App", "Frontend Development"],
+        "technologies": ["React /", " Chakra UI /", " API REST"],
+        "clasification": ["Single Page App /", " Frontend Development"],
         "website": "https://best-movie.netlify.app/"
     }
 ]

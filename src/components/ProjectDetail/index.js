@@ -13,7 +13,7 @@ const ProjectDetail = ({image, title, sideDescription, clasification,
             <h2>{title}</h2>
             <p className="copy">{sideDescription}</p>
             <p><span>{clasification}</span></p>
-            <p><span>{technologies}</span></p>
+            <p className="copy-stack"><span>{technologies}</span></p>
             <Link to={website} className="button">Visitar website</Link>
         </aside>
 

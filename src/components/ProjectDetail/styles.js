@@ -17,6 +17,10 @@ export const StyledDetail = styled.aside`
             margin-bottom: 25px;
         }
 
+        .copy-stack {
+            text-transform: uppercase;
+        }
+
         p {
             margin: 0;
             span {
