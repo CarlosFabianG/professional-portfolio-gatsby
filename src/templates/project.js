@@ -33,9 +33,9 @@ const Project = ({ data }) => {
                         clasification={project.clasification}
                         website={project.website} />
 
-        <PreviousNext  next={project.next} 
+        <PreviousNext  next={`/projects/${project.next}/`} 
                        nextTitle={project.nextTitle}
-                       prev={project.prev}
+                       prev={`/projects/${project.prev}/`}
                        prevTitle={project.prevTitle} />
 
         <ContactMe    />

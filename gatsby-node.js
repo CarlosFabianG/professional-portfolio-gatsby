@@ -21,7 +21,7 @@ exports.createPages =  async ({actions: {createPage}, graphql}) => {
         const project = edge.node
 
         createPage({
-            path: `/project/${project.slug}/`,
+            path: `projects/${project.slug}/`,
             component: require.resolve(`./src/templates/project.js`),
             context: {
                 slug: project.slug

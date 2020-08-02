@@ -1,7 +1,7 @@
 [
     {
         "title": "Manage",
-        "slug": "project-manage",
+        "slug": "manage",
         "sideDescription": "Este proyecto requirió un buen conocimiento de maquetación en HTML5, CSS, SASS y técnicas de responsive design.",
         "description": "Manage es una landing page que hice usando HTML5, SASS y unas gotas de JavaScript. Durante el desarrollo se siguió la metodología BEM para nombrar selectores de CSS. Gracias a la ayuda del preprocesador de css SASS el código está modularizado por componente lo que facilita el mantenimiento y la escalabilidad. El diseño es responsive y se siguió el enfoque mobile first",
         "prev": "none",
@@ -14,7 +14,7 @@
     },
     {
         "title": "Fylo",
-        "slug": "project-fylo",
+        "slug": "fylo",
         "sideDescription": "Este proyecto requirió un buen conocimiento de maquetación en HTML5, CSS, SASS y técnicas de responsive design.",
         "description": "Fylo es una landing page que hice usando HTML5 y SASS. Durante el desarrollo se siguió la metodología BEM para nombrar selectores de CSS. Gracias a la ayuda del preprocesador de css SASS el código está modularizado por componente lo que facilita el mantenimiento y la escalabilidad. Se usaron medidas relativas y media queries para hacer el diseño responsivo para smartphones y laptop.",
         "prev": "manage",
