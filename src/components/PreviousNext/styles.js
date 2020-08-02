@@ -13,29 +13,42 @@ export const StyledPreviousNext = styled.section`
     p {
         font-family: 'Ibarra Real Nova', serif;
         font-size: 32px;
-        margin: 0;
+        margin: 7px 0;
     }
     span {
         color: #33323D;
         opacity: 50%;
         font-size: 15px;
+        font-family: 'Public Sans', sans-serif;
     }
     .left-button {
+        width: 50%;
         display: flex;
-        align-items: center;
-        
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
         border-right: solid rgb(234, 234, 235) 1.5px;
         img {
             margin-right: 25px;
         }
+        a {
+            display: flex;
+            height: 25px;
+        }
     }
     .right-button {
+        width: 50%;
         display: flex;
-        justify-content: flex-end;
-        align-items: center;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        justify-content: center;
        
         img {
             margin-left: 25px;
+        }
+        a {
+            display: flex;
+            height: 25px;
         }
         div {
             text-align: end;
