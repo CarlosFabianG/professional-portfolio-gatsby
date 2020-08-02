@@ -9,18 +9,18 @@ const ProjectDetail = ({image, title, sideDescription, clasification,
         <>
         <Image name={image}/>
         <StyledDetail>
-        <aside className="aside-description">
-            <h2>{title}</h2>
-            <p className="copy">{sideDescription}</p>
-            <p><span>{clasification}</span></p>
-            <p className="copy-stack"><span>{technologies}</span></p>
-            <Link to={website} className="button">Visitar website</Link>
-        </aside>
+            <aside className="aside-description">
+                <h2>{title}</h2>
+                <p className="copy">{sideDescription}</p>
+                <p><span>{clasification}</span></p>
+                <p className="copy-stack"><span>{technologies}</span></p>
+                <Link to={website} className="button">Visitar website</Link>
+            </aside>
 
-        <article className="project-background">
-            <h3>Project Background</h3>
-            <p>{description}</p>
-        </article>
+            <article className="project-background">
+                <h3>Project Background</h3>
+                <p>{description}</p>
+            </article>
         </StyledDetail>
         </>
     )

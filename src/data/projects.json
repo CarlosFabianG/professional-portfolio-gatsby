@@ -10,7 +10,12 @@
         "nextTitle": "Fylo",
         "technologies": ["html /", " css /", " js"],
         "clasification": ["Landing Page /", " Frontend Development"],
-        "website": "https://manage-landing-page-cf.netlify.app"
+        "website": "https://manage-landing-page-cf.netlify.app",
+        "image": {
+            "mobile": "mobile-manage-hero",
+            "tablet": "tablet-manage-hero",
+            "desktop": "desktop-manage-hero"
+        }
     },
     {
         "title": "Fylo",
@@ -23,7 +28,12 @@
         "nextTitle": "Geek Blog",
         "technologies": ["html /", " css /", " js"],
         "clasification": ["Landing Page /", " Frontend Development"],
-        "website": "https://fylo-landingpage-cf.netlify.app"
+        "website": "https://fylo-landingpage-cf.netlify.app",
+        "image": {
+            "mobile": "mobile-fylo-hero",
+            "tablet": "tablet-fylo-hero",
+            "desktop": "desktop-fylo-hero"
+        }
     },
     {
         "title": "Blog Geek",
@@ -36,7 +46,12 @@
         "nextTitle": "Landing in Mars",
         "technologies": ["html /", " css /", " js"],
         "clasification": ["Multipage website /", " Frontend Development"],
-        "website": "https://geek-blog.netlify.app"
+        "website": "https://geek-blog.netlify.app",
+        "image": {
+            "mobile": "geek-blog-hero",
+            "tablet": "geek-blog-hero",
+            "desktop": "geek-blog-hero"
+        }
     },
     {
         "title": "Landing in Mars",
@@ -49,7 +64,12 @@
         "nextTitle": "Best Exchange",
         "technologies": ["html /", " css", " js"],
         "clasification": ["Video Game /", " Frontend Development"],
-        "website": "https://carlosfabiang.github.io/learning-in-mars/"
+        "website": "https://carlosfabiang.github.io/learning-in-mars/",
+        "image": {
+            "mobile": "landing-in-mars-hero",
+            "tablet": "landing-in-mars-hero",
+            "desktop": "landing-in-mars-hero"
+        }
     },
     {
         "title": "Best Exchange",
@@ -62,7 +82,12 @@
         "nextTitle": "Best Movie",
         "technologies": ["Vue /", " Tailwind /", " API REST"],
         "clasification": ["Single Page App /", " Frontend Development"],
-        "website": "https://best-exchange.netlify.app/"
+        "website": "https://best-exchange.netlify.app/",
+        "image": {
+            "mobile": "best-exchange-hero",
+            "tablet": "best-exchange-hero",
+            "desktop": "best-exchange-hero"
+        }
     },
     {
         "title": "Best Movie",
@@ -75,6 +100,11 @@
         "nextTitle": "Manage",
         "technologies": ["React /", " Chakra UI /", " API REST"],
         "clasification": ["Single Page App /", " Frontend Development"],
-        "website": "https://best-movie.netlify.app/"
+        "website": "https://best-movie.netlify.app/",
+        "image": {
+            "mobile": "best-movie-hero",
+            "tablet": "best-movie-hero",
+            "desktop": "best-movie-hero"
+        }
     }
 ]
