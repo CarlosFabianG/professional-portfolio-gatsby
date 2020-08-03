@@ -50,4 +50,41 @@ export const StyledDetail = styled.aside`
         margin-top: 48px;
         line-height: 2;
     }
+    @media screen and (min-width: 768px){
+        .aside-description {
+            height: 320px;
+            padding-top: 0;
+            h3 {
+                display: flex;
+                width: fit-content;
+                position: relative;
+                top: 70px;
+                font-size: 40px;
+            }
+            .copy {
+                width: 339px;
+                display: flex;
+                position: relative;
+                left: 53%;
+            }
+            .copy-stack {
+                display: flex;
+                width: fit-content;
+                position: relative;
+                bottom: 110px;
+            }
+        }
+        .button {
+            display: flex;
+            width: fit-content;
+            position: relative;
+            bottom: 110px;
+        }
+    }
+
+    @media screen and (min-width: 1024px){
+        .aside-description {
+    
+        }
+    }
 `
