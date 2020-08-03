@@ -17,6 +17,11 @@ export const query = graphql`
             technologies
             clasification
             website
+            image {
+                mobile
+                tablet
+                desktop
+            }
         }
     }
 `
@@ -31,7 +36,8 @@ const Project = ({ data }) => {
                         description={project.description}
                         technologies={project.technologies}
                         clasification={project.clasification}
-                        website={project.website} />
+                        website={project.website} 
+                        image={project.image}/>
 
         <PreviousNext  next={`/projects/${project.next}/`} 
                        nextTitle={project.nextTitle}

@@ -12,9 +12,9 @@
         "clasification": ["Landing Page /", " Frontend Development"],
         "website": "https://manage-landing-page-cf.netlify.app",
         "image": {
-            "mobile": "mobile-manage-hero",
-            "tablet": "tablet-manage-hero",
-            "desktop": "desktop-manage-hero"
+            "mobile": "mobile-manage-hero.jpg",
+            "tablet": "tablet-manage-hero.jpg",
+            "desktop": "desktop-manage-hero.jpg"
         }
     },
     {
@@ -30,9 +30,9 @@
         "clasification": ["Landing Page /", " Frontend Development"],
         "website": "https://fylo-landingpage-cf.netlify.app",
         "image": {
-            "mobile": "mobile-fylo-hero",
-            "tablet": "tablet-fylo-hero",
-            "desktop": "desktop-fylo-hero"
+            "mobile": "mobile-fylo-hero.jpg",
+            "tablet": "tablet-fylo-hero.jpg",
+            "desktop": "desktop-fylo-hero.jpg"
         }
     },
     {
@@ -48,9 +48,9 @@
         "clasification": ["Multipage website /", " Frontend Development"],
         "website": "https://geek-blog.netlify.app",
         "image": {
-            "mobile": "geek-blog-hero",
-            "tablet": "geek-blog-hero",
-            "desktop": "geek-blog-hero"
+            "mobile": "geek-blog-hero.png",
+            "tablet": "geek-blog-hero.png",
+            "desktop": "geek-blog-hero.png"
         }
     },
     {
@@ -66,9 +66,9 @@
         "clasification": ["Video Game /", " Frontend Development"],
         "website": "https://carlosfabiang.github.io/learning-in-mars/",
         "image": {
-            "mobile": "landing-in-mars-hero",
-            "tablet": "landing-in-mars-hero",
-            "desktop": "landing-in-mars-hero"
+            "mobile": "landing-in-mars-hero.png",
+            "tablet": "landing-in-mars-hero.png",
+            "desktop": "landing-in-mars-hero.png"
         }
     },
     {
@@ -84,9 +84,9 @@
         "clasification": ["Single Page App /", " Frontend Development"],
         "website": "https://best-exchange.netlify.app/",
         "image": {
-            "mobile": "best-exchange-hero",
-            "tablet": "best-exchange-hero",
-            "desktop": "best-exchange-hero"
+            "mobile": "best-exchange-hero.png",
+            "tablet": "best-exchange-hero.png",
+            "desktop": "best-exchange-hero.png"
         }
     },
     {
@@ -102,9 +102,9 @@
         "clasification": ["Single Page App /", " Frontend Development"],
         "website": "https://best-movie.netlify.app/",
         "image": {
-            "mobile": "best-movie-hero",
-            "tablet": "best-movie-hero",
-            "desktop": "best-movie-hero"
+            "mobile": "best-movie-hero.png",
+            "tablet": "best-movie-hero.png",
+            "desktop": "best-movie-hero.png"
         }
     }
 ]

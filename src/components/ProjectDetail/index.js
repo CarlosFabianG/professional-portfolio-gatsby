@@ -1,13 +1,21 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Image from '../image'
+import useReactSimpleMatchMedia from 'react-simple-matchmedia'
 import { StyledDetail } from './styles'
 
-const ProjectDetail = ({image, title, sideDescription, clasification, 
-                        technologies, description, website}) => {
+const ProjectDetail = ( {title, sideDescription, clasification, 
+                        technologies, description, website, image}) => {
+    
+    const desktop = useReactSimpleMatchMedia('(min-width: 1024px) and (max-width: 1450px)')
+    const tablet = useReactSimpleMatchMedia('(min-width: 768px) and (max-width: 1023px)')
+    const mobile = useReactSimpleMatchMedia('(min-width: 375px) and (max-width: 767px)')
+
     return(
         <>
-        <Image name={image}/>
+        { desktop && <Image name={image.desktop} />}
+        { tablet && <Image name={image.tablet} />}
+        { mobile && <Image name={image.mobile} />}
         <StyledDetail>
             <aside className="aside-description">
                 <h2>{title}</h2>

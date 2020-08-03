@@ -4,6 +4,7 @@ export const StyledDetail = styled.aside`
     display: flex;
     flex-direction: column;
     font-family: 'Public Sans', sans-serif;
+    margin-top: 40px;
     h2,h3 {
         font-family: Ibarra Real Nova;
     }
