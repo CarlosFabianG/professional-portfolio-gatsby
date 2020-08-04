@@ -56,35 +56,33 @@ export const StyledDetail = styled.aside`
             padding-top: 0;
             h3 {
                 display: flex;
-                width: fit-content;
-                position: relative;
-                top: 70px;
                 font-size: 40px;
             }
             .copy {
-                width: 339px;
-                display: flex;
-                position: relative;
-                left: 53%;
+                
             }
             .copy-stack {
-                display: flex;
-                width: fit-content;
-                position: relative;
-                bottom: 110px;
+               
             }
         }
         .button {
-            display: flex;
-            width: fit-content;
-            position: relative;
-            bottom: 110px;
+          
         }
     }
 
     @media screen and (min-width: 1024px){
+        flex-direction: row;
+        justify-content: space-between;
         .aside-description {
-    
+            height: 498px;
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+        .project-background {
+            width: 635px;
         }
     }
 `
