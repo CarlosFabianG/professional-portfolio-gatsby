@@ -7,9 +7,9 @@ import arrowsDown from './down-arrows.svg'
 
 const Hero = () => {
 
-    const desktop = useReactSimpleMatchMedia('desktop')
-    const tablet = useReactSimpleMatchMedia('tablet')
-    const mobile = useReactSimpleMatchMedia('phone')
+    const desktop = useReactSimpleMatchMedia('(min-width: 1024px) and (max-width: 1450px)')
+    const tablet = useReactSimpleMatchMedia('(min-width: 768px) and (max-width: 1023px)')
+    const mobile = useReactSimpleMatchMedia('(min-width: 375px) and (max-width: 767px)')
 
 
     return(

@@ -62,7 +62,7 @@ margin-bottom: 4.75rem;
 
         .button {
             position: relative;
-            top: 55px;
+            
         }
     }
 }

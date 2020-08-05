@@ -4,13 +4,13 @@ import { StyledForm } from './styles'
 const Form = () => {
     return(
         <StyledForm>
-          <label>Nombre</label>
-          <input className="input-medium" placeholder="Elon Musk" />
+          <label for="name">Nombre</label>
+          <input className="input-medium" placeholder="Elon Musk" name="name"/>
   
-          <label>Email</label>
+          <label for="email">Email</label>
           <input className="input-medium" placeholder="email@example.com" type="email" name="email" />
   
-          <label>Mensaje</label>
+          <label for="message">Mensaje</label>
           <input className="input-large" placeholder="¿Cómo te puedo ayudar?" type="text" name="message"/>
 
           <button>Envíar mensaje</button>
