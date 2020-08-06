@@ -1,7 +1,27 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-
+import styled from 'styled-components'
 import SEO from "../components/seo"
+
+const StlyedIndex = styled.div`
+  font-family: 'Public Sans', sans-serif;
+  header {
+    h3 {
+      color: #5FB4A2;
+      font-size: 40px;
+      margin-bottom: 15px;
+      a {
+        text-decoration: none;
+        color: #5FB4A2;
+      }
+    }
+  }
+  section {
+    p {
+      color: #33323D;
+    }
+  }
+`
 
 const BlogIndex = ({data}) => {
   const { edges } = data.allMarkdownRemark
@@ -15,7 +35,7 @@ const BlogIndex = ({data}) => {
     {edges.map(({ node }) => {
       const title = node.frontmatter.title
       return (
-        <>
+        <StlyedIndex>
         <header>
           <h3>
             <Link to={node.frontmatter.path}>
@@ -31,7 +51,7 @@ const BlogIndex = ({data}) => {
             }}
           />
         </section>
-        </>
+        </StlyedIndex>
       )
     })}
   </>
