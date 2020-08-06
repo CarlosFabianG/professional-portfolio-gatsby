@@ -1,5 +1,5 @@
 ---
-path: "blog/third-post"
+path: "third-post"
 date: 2020-12-08
 title: "My third post"
 excerpt: "A preview of my third post"
