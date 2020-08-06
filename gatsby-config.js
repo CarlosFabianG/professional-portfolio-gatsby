@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: `CarlosFabian.dev `,
-    description: `Professional site with some of my projects`,
+    description: `A website and blog by Carlos Fabian`,
     author: `@gatsbyjs`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -18,6 +19,13 @@ module.exports = {
       options: {
         name: `data`,
         path: `${__dirname}/src/data`,
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options : {
+        name: "blog",
+        path: `${__dirname}/src/blog`,
       }
     },
     `gatsby-plugin-styled-components`,
