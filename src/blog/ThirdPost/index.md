@@ -1,8 +1,8 @@
 ---
-path: "third-post"
+path: "mis-primeros-pasos-con-graphql"
 date: 2020-12-08
-title: "My third post"
-excerpt: "A preview of my third post"
+title: "Mis primeros pasos con GraphQl"
+excerpt: "Lo que he aprendido sobre la marcha de GraphQL"
 ---
 
-# This is my third post
+# Mis primeros pasos con GraphQl

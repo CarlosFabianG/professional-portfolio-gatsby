@@ -1,12 +1,24 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { Helmet } from 'react-helmet'
+import styled from 'styled-components'
+
+const StyledPostTemplate = styled.div`
+    
+    .blog-post {
+        padding: 10vh 12vw;
+        font-family: 'Public Sans', sans-serif;
+        h1 {
+            font-family: Ibarra Real Nova;
+        }
+    }
+`
 
 const PostTemplate = ({ data }) => {
     const title = data.markdownRemark.frontmatter.title
     const html = data.markdownRemark.html
     return(
-        <div className="blog-post-container">
+        <StyledPostTemplate>
             <Helmet title={`Carlos Fabian - ${title}`} />
             <div className="blog-post">
                 <h1>{title}</h1>
@@ -15,7 +27,7 @@ const PostTemplate = ({ data }) => {
                     dangerouslySetInnerHTML={{__html: html}}
                 />
             </div>
-        </div>
+        </StyledPostTemplate>
     )
 }
 

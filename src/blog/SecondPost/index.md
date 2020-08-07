@@ -1,9 +1,9 @@
 ---
-path: "second-post"
+path: "que-es-gatsby-js"
 date: 2020-12-07
-title: "My second post"
-excerpt: "A preview of my second post"
+title: "¿Qué es Gatsby JS?"
+excerpt: "Una introducción a este popular framework basado en React y GraphQl"
 ---
 
 
-# Hey there! This is my second post
+# ¿Qué es Gatsby JS?
