@@ -3,13 +3,36 @@ import { Link, graphql } from "gatsby"
 import { formatPostDate } from '../utils/helpers'
 import styled from 'styled-components'
 import SEO from "../components/seo"
+import Image from '../components/image'
 
-const StlyedIndex = styled.div`
+const StyledIntro = styled.div`
+  margin-bottom: 80px;
+  margin-left: 10vw;
+  margin-top: 50px;
   font-family: 'Public Sans', sans-serif;
+  display: flex;
+  .img-container {
+    width: 60px;
+    height: 60px;
+    border-radius: 80%;
+    margin-right: 15px;
+    overflow: hidden;
+  }
+  p {
+    margin: 0;
+    font-size: 14px;
+  }
+`
+
+const StyledIndex = styled.div`
+  font-family: 'Public Sans', sans-serif;
+  margin-bottom: 50px;
+  margin-left: 10vw;
   header {
     h3 {
       color: #5FB4A2;
       font-size: 32px;
+      font-weight: 900;
       margin-bottom: 5px;
       a {
         text-decoration: none;
@@ -35,13 +58,21 @@ const BlogIndex = ({data}) => {
   return(
     <>
     <SEO title="Blog" />
-    <h1>Hola!</h1>
-    <p>Bienvenido a mi blog en donde comparto lo que aprendo de código</p>
+    <StyledIntro>
+      <div className="img-container">
+        <Image  name="carlos-fabian-profile.JPG"/> 
+      </div> 
+      <div>
+        <p>Bienvenido a mi Blog.</p> 
+        <p>Aquí comparto lo que aprendo de código.</p>
+      </div>
+      
+    </StyledIntro>
     
     {edges.map(({ node }) => {
       const title = node.frontmatter.title
       return (
-        <StlyedIndex>
+        <StyledIndex>
         <header>
           <h3>
             <Link to={node.frontmatter.path}>
@@ -59,7 +90,7 @@ const BlogIndex = ({data}) => {
             }}
           />
         </section>
-        </StlyedIndex>
+        </StyledIndex>
       )
     })}
   </>
