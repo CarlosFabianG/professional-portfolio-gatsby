@@ -28,10 +28,8 @@ exports.createPages =  async ({actions: {createPage}, graphql}) => {
             }
         })
     })
-}
 
-exports.createPages = async ({graphql, actions:{createPage}}) => {
-    const results = await graphql(`
+    const results2 = await graphql(`
     {
         allMarkdownRemark {
             edges {
@@ -44,12 +42,12 @@ exports.createPages = async ({graphql, actions:{createPage}}) => {
         } 
     }
     `)
-    if(results.error){
+    if(results2.error){
         console.error('Something went wrong!')
         return
     }
 
-    results.data.allMarkdownRemark.edges.forEach(edge => {
+    results2.data.allMarkdownRemark.edges.forEach(edge => {
         const path = edge.node.frontmatter.path
 
         createPage({
@@ -60,4 +58,6 @@ exports.createPages = async ({graphql, actions:{createPage}}) => {
             }
         })
     })
+    return Promise.all([results, results2])
 }
+
