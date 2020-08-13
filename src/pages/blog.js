@@ -29,7 +29,6 @@ const StyledIntro = styled.div`
 const StyledIndex = styled.div`
   font-family: 'Public Sans', sans-serif;
   margin-bottom: 50px;
-  margin-left: 10vw;
   header {
     h3 {
       color: #5FB4A2;
@@ -71,7 +70,6 @@ const BlogIndex = ({data}) => {
         <p>Bienvenido a mi Blog.</p> 
         <p>Aquí comparto lo que aprendo de código.</p>
       </div>
-      
     </StyledIntro>
     
     {edges.map(({ node }) => {
