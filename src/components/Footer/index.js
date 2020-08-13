@@ -16,6 +16,7 @@ const Footer = () => {
                     <Link to={'/'}>Inicio</Link>
                     <Link to={'/projects'}>Portafolio</Link>
                     <Link to={'/contact'}>Contacto</Link>
+                    <Link to={'/blog'}>Blog</Link>
                 </div>
                 <div className="sm-icons">
                     <a href="https://github.com/CarlosFabianG">
