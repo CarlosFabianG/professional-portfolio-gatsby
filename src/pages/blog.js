@@ -7,7 +7,6 @@ import Image from '../components/image'
 
 const StyledIntro = styled.div`
   margin-bottom: 80px;
-  margin-left: 10vw;
   margin-top: 50px;
   font-family: 'Public Sans', sans-serif;
   display: flex;
@@ -21,6 +20,9 @@ const StyledIntro = styled.div`
   p {
     margin: 0;
     font-size: 14px;
+  }
+  @media screen and (min-width: 768px){
+    margin-left: 10vw;
   }
 `
 
@@ -49,6 +51,9 @@ const StyledIndex = styled.div`
       color: #33323D;
       font-size: 14px;
     }
+  }
+  @media screen and (min-width: 768px){
+    margin-left: 10vw;
   }
 `
 
@@ -105,10 +110,10 @@ query BlogIndexQuery {
     edges {
       node {
         frontmatter {
+          date(formatString: "MMMM DD, YYYY")
           title
           excerpt
           path
-          date 
         }
       }
     }
