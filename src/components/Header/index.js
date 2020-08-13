@@ -27,6 +27,7 @@ const Header = () => {
                     <Link to={'/'} onClick={changeStatus}>Inicio</Link>
                     <Link to={'/projects'} onClick={changeStatus}>Portafolio</Link>
                     <Link to={'/contact'} onClick={changeStatus}>Contacto</Link>
+                    <Link to={'/blog'}>Blog</Link>
                 </nav>
             </div>
         </StyledHeader>
