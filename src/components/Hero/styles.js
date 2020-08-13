@@ -27,6 +27,10 @@ margin-bottom: 4.75rem;
         }
         img {
                 margin-bottom: 0;
+                position: relative;
+                right: 50px;
+                top: 3px;
+                height: 15px;
             }
 }
 }

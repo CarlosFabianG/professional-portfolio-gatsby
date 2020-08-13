@@ -21,7 +21,12 @@ const Hero = () => {
             </div>
             <div className="text-container">
                 <h1>Hola, soy Carlos Fabián, desarrollador <br/><span>WEB</span></h1>
-                <Link to={'/'} className="button"><img src={arrowsDown} alt="arrow"/>Sobre mí</Link>
+                <Link to={'/'} className="button">
+                    
+                    <img src={arrowsDown} alt="arrow"/>
+                    
+                    Sobre mí
+                </Link>
             </div>
         </StyledHero>
     )
