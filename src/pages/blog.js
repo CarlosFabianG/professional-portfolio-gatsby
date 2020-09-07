@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 import { formatPostDate } from '../utils/helpers'
 import styled from 'styled-components'
 import SEO from "../components/seo"
-import Image from '../components/image'
+//import Image from '../components/image'
 
 const StyledIntro = styled.div`
   margin-bottom: 80px;
