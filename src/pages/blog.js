@@ -8,18 +8,18 @@ import Image from '../components/image'
 const StyledIntro = styled.div`
   margin-bottom: 80px;
   margin-top: 50px;
-  font-family: 'Public Sans', sans-serif;
+  font-family: Ibarra Real Nova;
   display: flex;
-  .img-container {
-    width: 60px;
-    height: 60px;
-    border-radius: 80%;
-    margin-right: 15px;
-    overflow: hidden;
+  h3 {
+    font-family: Ibarra Real Nova;
+    font-size: 45px;
+    margin: 0;
   }
   p {
     margin: 0;
-    font-size: 14px;
+    font-size: 16px;
+    color: #33323D;
+    opacity: 50%;
   }
   @media screen and (min-width: 768px){
     margin-left: 10vw;
@@ -63,11 +63,8 @@ const BlogIndex = ({data}) => {
     <>
     <SEO title="Blog" />
     <StyledIntro>
-      <div className="img-container">
-        <Image  name="carlos-fabian-profile.JPG"/> 
-      </div> 
       <div>
-        <p>Bienvenido a mi Blog.</p> 
+        <h3>Bienvenido a mi Blog</h3> 
         <p>Aquí comparto lo que aprendo de código.</p>
       </div>
     </StyledIntro>
