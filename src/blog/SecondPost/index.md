@@ -5,5 +5,3 @@ title: "¿Qué es Gatsby JS?"
 excerpt: "Una introducción a este popular framework basado en React y GraphQl"
 ---
 
-
-# ¿Qué es Gatsby JS?
